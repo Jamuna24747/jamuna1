@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.navbar{
+    text-align: left;
+    font-size: 20px;
+    background-color:lightblue;
+    padding: 10px;
+}
+.navbar a{
+    padding-right:2% ;
+    text-align: none;
+    color: black;
+    
+}
+.navbar a :hover{
+        color : white;
+        content:" ";
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: deepskyblue;
+        transition: width 0.4s;
+        margin:top: 10px;
+}
+
+.navbar-right{
+    text-align: right;
+    float : right;
+}
+.Home
+{
+    height: 50px;
+   padding-left: 15px;
+    font-size: 30px;
+    display: flex;    
+}
+.Home img{
+    height: 250px;
+    width: 400p;
+}
+.content{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    font-size: 22px;
+}
+.contact{
+    text-align: center;
+    color:cornflowerblue;  
+}
+.form
+{
+    display: flex;
+    flex-direction :column;
+width: 400px;
+margin :auto;
+gap: 20px;
+}
+.footer{
+    text-align: center;
+     background-color:rgba(249, 226, 51, 0.518);
+    padding: 10px;
+    margin: 30px;
+}
+.b{
+    background-color: rgb(230, 23, 23)
+}
+.a{
+    color :brown;
+    text-decoration: none;
+}
+.layout{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    gap: 10px;
+    color:brown
+}
+h3{
+    color: rgb(22, 185, 185);
+}
+h1{
+    text-align: center;
+}
+.card{
+    width: 280px;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+}
+#first{
+    margin-top: 250px;
+}
+.ab{
+    background-color: rgb(230, 230, 34);
+    color: black;
+}
+.whole{
+    text-align: center;
+}
+
+
