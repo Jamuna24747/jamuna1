@@ -10,57 +10,64 @@
     </style>
 </head>
 <body>
-    <div class="whole">
-    <div class="navbar" >
-        <ul>
-       <li> <a href="Home.com" class="#Home">Home</a></li>
-    <li> <a  href="News.com" class="#News">News</a></li>
-     <li><a href="About.com"  class="#About">About</a></li>
-     <li><a href="Contact.com" class="#Contact">Contact</a></li>
-        </ul>
-    </div>
-    <div>
-        <h1> Hi,I'm Mrs.JR</h1>
-        <p>Aspiring Web Developer|SEEGraduate</p>
-<a  href ="https://github.com/Jamuna24747/Jamunaa" class="ab">See My Work</a>
 
+    <nav class="navbar">
+    <div class="logo" >Portfolio</div>
+    <div class="hamburger" id="hamburger">
+         <span></span>
+            <span></span>
+            <span></span>
     </div>
-    <h1> About me</h1>
+        <ul class="nav-links" id="navlinks">
+       <li> <a href="#">Home</a></li>
+    <li> <a  href="#">News</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="intro">
+        <h1 id="typed-text"></h1>
+        <p>Aspiring Web Developer|SEEGraduate</p>
+        <div class="ab">
+<a  href ="https://github.com/Jamuna24747/Jamuna1" class="abc">See My Work</a>
+    </div>
+    </div>
+
+    <h1 class="about"> About me</h1>
     <div class="Home">
         <div class="content">
-             <p>Hello!   I am Mrs an SEE graduated with a passion for web development.<br>
-                I enjoy turning ideas into interactive websites and continuously learning new skills.<br>
-                I am currently working on a project that showcases my skills and creativity.<br>
-                I have a strong foundation in HTML, CSS, and JavaScript, and I'm currently diving into PHP and MySQL.<br>
-                I love creating user-friendly interfaces and ensuring a seamless user experience.<br>
-            </p>
-        </div>
-        <div >
-            <img src="picture.jpg" alt="">
+             <div class="p">Hello!   I am Mrss an SEE graduated with a passion for web development.
+              I enjoy turning ideas into interactive websites and continuously learning new skills.
+                I am currently working on a project that showcases my skills and creativity.
+                I have a strong foundation in HTML, CSS, and JavaScript, and I'm currently diving into MySQL.
+                I love creating user-friendly interfaces and ensuring a seamless user experience.</p>
+             </div>
+            <div class="i">
+            <img src="./images/picture.jpg" alt="" class="img">
+            </div>
         </div>
     </div>
-    <h1 id="first">Welcome to my project</h1>
-    <div class="header">
-        <div class="layout">
-         <div class="card">
-            <img src="view3.jpg" alt="" >
-            <h3> Animated Navbar</h3>
-            <p> Hello! It's a peaceful moment that brings hope and a fresh start to the day.</p>
+        <section >
+            <h1 class="title">Take your services</h1>
+            <div id="services" class="services">
+            <div class="service-layout" id="service-container">
             </div>
-            <div class="card">
-                <img src="view1.jpg" alt="" >
-                <h3> Morning Animated Navbar</h3>
-                <p> Good morning Everyone. <br>The morning sunrise paints the sky with hues of gold and pink.</p>
-                </div>
-            <div class="card">
-            <img src="view2.jpg" alt="">
-            <h3>Landing Page</h3>
-            <p>A clean and simple landing page using HTML,CSS and basic JS.</p>
-            </div> 
+                     
             </div>
-            </div>
+        </section>
+
+    <section>
+        <h1 class="title"> Welcome to my Projects</h1>
+        <div  id="projects" class="projects">
+        <div class="project-layout" id="project-container">
+        </div>     
+       </div>
+    </section>
+
+    
            <div class="contact">
-        <h1>Contact me</h1>
+        <h1>Contact Me</h1>
         <form class="form">
             <input type ="text" id="name" name="name" placeholder="Enter your name">
             <input type="email" id="email" name="email" placeholder="Enter your email">
@@ -68,14 +75,25 @@
            <button class="b"> Send Message</button>    
          </form>
     </div>
-    <footer class="footer"><p>
+
+    <section >
+        <h1 class="title">What People Say</h1>
+        <div id="openions" class="openions">
+        <div class="openion-layout" id="openion-container">
+        </div>
+        </div>
+        </section>
+
+    <footer class="footer">
         <p>&copy Mrs Jamuna All rights reserved</p>
+        <p>
             <a href="https://www.facebook.com/" class="a">Facebook</a>
         <a href=" https://www.github.com" class="a">Github</a>
         <a href="https://www.instagram.com/" class="a">Instagram</a>
+        <a href="https://www.youtube.com/" class="a">Youtube</a>
+      
         </p>
     </footer>
-    </div>
-    </body></div>
+    <script src="index.js"></script>
 </body>
 </html>

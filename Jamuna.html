@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is my first Javascript page</h1>
+    <button type="button" ondblclick="viewDate()">First Name</button>
+    <p id="first"></p>
+    <button type="button" ondblclick="myDate()">Last Name</button>
+    <p id="last"></p>
+
+    <script>
+        const user ="Jamuna";
+        function viewDate(){
+            document.getElementById("first").innerHTML="My first name is" +  user+ "today is"  + Date();
+        }
+        function myDate(){
+            document.getElementById("last").innerHTML="My last name is Regmi";
+        }
+    </script>   
+</body>
+</html>
+
+
+
+
+
+
+<div class="card">
+            <img src="view3.jpg" alt="" >
+            <h3> Animated Navbar</h3>
+            <p> Hello! It's a peaceful moment that brings hope and a fresh start to the day.</p>
+            </div>
+            <div class="card">
+                <img src="view1.jpg" alt="" >
+                <h3> Morning Animated Navbar</h3>
+                <p> Good morning Everyone. <br>The morning sunrise paints the sky with hues of gold and pink.</p>
+                </div>
+            <div class="card">
+            <img src="view2.jpg" alt="">
+            <h3>Landing Page</h3>
+            <p>A clean and simple landing page using HTML,CSS and basic JS.</p>
+            </div> 
+
+
+            <div class="navbar"></div>
+    <nav class="navbar" >
+        <ul class="nav-links" id="navlinks">
+       <li> <a href="Home.com" class="#Home">Home</a></li>
+    <li> <a  href="News.com" class="#News">News</a></li>
+     <li><a href="About.com"  class="#About">About</a></li>
+     <li><a href="Contact.com" class="#Contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </nav>
+    </div>
